@@ -1,4 +1,7 @@
-# RSocket 정리 (http://rsocket.io/)
+# RSocket 정리 
+
+> RSocket 공식 홈페이지를 번역한 글 입니다. <br>
+> http://rsocket.io/
 
 RSocket 은 TCP, WebSockets, Aeron 처럼 byte stream 전송을 위한 binary protocol 입니다.
 
