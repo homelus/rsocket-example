@@ -1,6 +1,6 @@
 # Motivations
 
-> [본문](http://rsocket.io/docs/Motivations)
+> [본문 참조](http://rsocket.io/docs/Motivations)
 
 대규모 분산 시스템들은 때때로 다양한 기술과 프로그래밍 언어를 사용해 다른 팀에 의해 모듈방식으로 구현됩니다.
 작은 조각들은 안정적으로 의사소통하고 신속하고 변화에 독립적으로 지원되어야 합니다.
