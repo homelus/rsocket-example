@@ -20,8 +20,12 @@ request/response 을 이외의 상호작용 패턴을 수용합니다.
 응답을 기다리는 동안 차단하지 않습니다.
 
 [Reactive Manifesto](http://www.reactivemanifesto.org/) 는 다음과 같이 말합니다.
+> Reactive Systems 는 비동기 메시지 전달에 의존하여 약한 결합, 고립성, 지역성, 투명성을 보장하는 구성요소 간 경계를 설정하고
+> 오류를 메시지로 위임하는 수단을 제공합니다. 명시적인 메시지 전달을 사용하는 것은 필요할 때 배압을 적용하고 시스템에서 메시지 큐를 
+> 만들거나 모니터링하여 적재 관리, 탄력성, 흐름 제어를 가능하게 합니다.
+> ... Non-blocking 은 수신인이 적은 시스템 오버헤드를 받고 활성화 될때만 자원을 소비하도록 도와줍니다.
 
-
+또한 [HTTP/2 FAQ](https://http2.github.io/faq/#why-is-http2-multiplexed) 에서는 지속적인 연결에서 멀티플렉싱 형태로 메시지 지향 프로토콜의 채택 동기를 설명하는데 도움을 줍니다.
 
 ### Interaction Models
 
