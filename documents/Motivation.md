@@ -16,6 +16,12 @@ request/response 을 이외의 상호작용 패턴을 수용합니다.
 다음은 새로운 프로토콜을 정의하기 위한 동기가 된 항목들입니다.
 
 ### Message Driven
+네트워크 통신은 비동적입니다. RSocket 프로토콜은 이를 수용하고 모든 통신을 단일 네트워크 연결에서 다중화 된 메시지 스트림을 모델링하며
+응답을 기다리는 동안 차단하지 않습니다.
+
+[Reactive Manifesto](http://www.reactivemanifesto.org/) 는 다음과 같이 말합니다.
+
+
 
 ### Interaction Models
 
