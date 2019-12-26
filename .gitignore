@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #*#
 .#*
 *~
@@ -150,3 +151,19 @@ gradle-app.setting
 
 ### Gradle Patch ###
 **/build/
+=======
+# Java Files
+*.class
+
+# Package file
+*.jar
+*.war
+*.ear
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+target/
+>>>>>>> 99c92ded521cfff0ad60c4a2310948ac08bc008e
