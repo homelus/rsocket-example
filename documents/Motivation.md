@@ -27,6 +27,10 @@ request/response 을 이외의 상호작용 패턴을 수용합니다.
 
 또한 [HTTP/2 FAQ](https://http2.github.io/faq/#why-is-http2-multiplexed) 에서는 지속적인 연결에서 멀티플렉싱 형태로 메시지 지향 프로토콜의 채택 동기를 설명하는데 도움을 줍니다.
 
+> HTTP/1.x 는 "head-of-line blocking" 이라고 불리는 문제를 가지고 있는데 연결에서 한번에 하나의 요청만 효과적으로 처리할 수 있습니다.
+
+> HTTP/1.1 에서는 
+
 ### Interaction Models
 
 ### Fire-andForget
