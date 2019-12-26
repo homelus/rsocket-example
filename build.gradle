@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+group 'jun.study'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    maven {
+        url "http://jcenter.bintray.com"
+    }
+}
+
+subprojects {
+
+    apply plugin: 'java'
+
+    repositories {
+        jcenter()
+        maven {
+            url "http://jcenter.bintray.com"
+        }
+    }
+
+    dependencies {
+        compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.2.2.RELEASE'
+        compile group: 'org.springframework.boot', name: 'spring-boot-starter-rsocket', version: '2.2.2.RELEASE'
+    }
+}
+
+dependencies {
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+}
