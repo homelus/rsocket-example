@@ -16,7 +16,7 @@ RSocket 은 TCP, WebSockets, Aeron 처럼 byte stream 전송을 위한 binary pr
 
 자세한 정보는 다음의 문서에서 찾을 수 있습니다.
 
-- [FAQ](documnets/FAQ.md) - 자주 묻는 질문
+- [FAQ](documents/FAQ.md) - 자주 묻는 질문
 - [Motivations](documents/Motivation.md) - 왜 RSocket 을 사용할까?
 - Protocol - 프로토콜
 - Implementations - 구현할 때 지원되는 Features 정보
