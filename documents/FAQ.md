@@ -49,4 +49,14 @@ QUIC 는 신뢰할만한 전송과 혼잡제어, 바이트 단위의 흐름제�
 RSocket 명세는 TCP 같은 프로토콜에서 RSocket에 프레임 길이와 스트림 ID들이 포함되기 위해 레이어링 하는 것을 염두에 두고 작성되었습니다.
 하지만 HTTP/2 또는 QUIC와 같은 경우 RSocket은 이를 생략하고 HTTP/2 또는 QUIC 가 제공하는 것을 사용합니다.
 
+["RSocket Protocol: Framing Format"](https://github.com/rsocket/rsocket/blob/master/Protocol.md#framing-format) 을 참고하세요.
+
+> 호환하는 프레이밍을 제공하지 않는 전송 프로토콜을 사용하는 경우 프레임 길이는 앞에 RSocket Frame 을 추가해야 합니다.
+
+그리고 ["RSocket Protocol: Frame Header Format"](https://github.com/rsocket/rsocket/blob/master/Protocol.md#frame-header-format)
+을 참고하세요.
+
+> HTTP/2 와 같은 역 다중화를 포함하는 전송 프로토콜은 모든 사용자들이 동의하면 Stream ID 필드를 생략할 수 있습니다.
+> 동의와 협상의 의미는 전송 프로토콜에 따릅니다.
+
 
