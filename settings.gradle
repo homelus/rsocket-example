@@ -1,3 +1,0 @@
-rootProject.name = 'rsocket-example'
-
-include 'rsocket-server', 'rsocket-client'
