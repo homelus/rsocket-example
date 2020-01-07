@@ -59,4 +59,6 @@ RSocket 명세는 TCP 같은 프로토콜에서 RSocket에 프레임 길이와 �
 > HTTP/2 와 같은 역 다중화를 포함하는 전송 프로토콜은 모든 사용자들이 동의하면 Stream ID 필드를 생략할 수 있습니다.
 > 동의와 협상의 의미는 전송 프로토콜에 따릅니다.
 
+### Why "Reactive Streams" request(n) Flow Control?
 
+(byte 단위가 아닌) 실행 작업 단위의 측면에서 애플리케이션 피드백이 없으면 "head of line blocking" 이 발생하거나 network 나 application buffers가 점유되거나 서버에서 클라이언트가 처리할 수 있는 것 보다 더 많은 데이터가 생성되기가 쉽습니다.
