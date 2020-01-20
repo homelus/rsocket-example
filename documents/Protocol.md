@@ -24,3 +24,4 @@ RSocket 은 다음과 같은 운영 패러다임을 가정합니다.
 
 - Frame: 요청과 응답 또는 프로토콜 처리를 포함하는 단일 메시지
 - Fragment: 프레임안에 포함하기 위해 분할 된 으용 프로그램 메시지의 일부([Fragmentation and Reassembly 참고](http://rsocket.io/docs/Protocol#fragmentation-and-reassembly))
+- 
